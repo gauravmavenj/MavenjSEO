@@ -1,0 +1,40 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+
+body{
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    justify-content: center;
+    text-align: center;
+}
+
+.container{
+    display: grid;
+    grid-gap: 20px;
+    grid-template-columns: 270px 740px 270px;
+    grid-template-rows: 100px 600px 100px;
+}
+
+
+.box-container1{
+    background-color: blueviolet;
+    grid-column: 1/4;
+}
+.box-container2{
+    background-color: coral;
+}
+.box-container3{
+    background-color: blue;
+}
+.box-container4{
+    background-color: orangered;
+}
+.box-container5{
+    background-color: green;
+    grid-column: 1/4;
+}
